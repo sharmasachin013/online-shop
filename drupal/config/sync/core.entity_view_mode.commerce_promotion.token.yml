@@ -1,0 +1,11 @@
+uuid: d6d1f5f4-747c-4e5f-8db8-16bb2b12b446
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_promotion
+id: commerce_promotion.token
+label: Token
+description: null
+targetEntityType: commerce_promotion
+cache: true
