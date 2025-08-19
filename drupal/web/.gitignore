@@ -1,0 +1,34 @@
+# Ignore Drupal cache, temporary, and generated files
+/web/sites/*/files/css/*
+/web/sites/*/files/js/*
+/web/sites/*/files/php/*
+/web/sites/*/files/php/twig/*
+/web/sites/*/files/styles/*
+/web/sites/*/files/tmp/*
+/web/sites/*/files/config_*
+/web/sites/*/files/cache/*
+/web/sites/*/services.yml
+/web/sites/*/settings.local.php
+/shop/web/sites/*/files/
+shop/web/sites/default/files/php/twig/
+# Ignore Drupal cache and temporary files
+/web/sites/default/files/php/
+/sites/default/files/php/
+
+
+# Ignore config sync if stored in a local folder
+/config/*
+!.gitkeep
+
+# Ignore Composer and npm stuff
+/vendor/
+/node_modules/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+
+# IDE and system files
+*.swp
+*.DS_Store
+*.idea/
+.vscode/
