@@ -1,0 +1,15 @@
+uuid: bf9240a6-7a1a-48e6-b00c-a38bc6c04d6f
+langcode: en
+status: true
+dependencies: {  }
+name: product_teaser
+label: 'Product Teaser'
+effects:
+  f157768e-fb62-4301-9f15-5e1aa95ba085:
+    uuid: f157768e-fb62-4301-9f15-5e1aa95ba085
+    id: image_scale
+    weight: 1
+    data:
+      width: null
+      height: 300
+      upscale: false
